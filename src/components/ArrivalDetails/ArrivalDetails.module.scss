@@ -1,0 +1,36 @@
+@import "../../styles/constants.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+
+  &.isRightAlign {
+    align-items: flex-end;
+  }
+
+  & .time,
+  .destination,
+  .date {
+    margin: 0;
+  }
+
+  & .time {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  & .destination {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  & .date {
+    color: $text-color-light-gray;
+  }
+}

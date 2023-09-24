@@ -1,0 +1,25 @@
+@import "../../styles/mixins.scss";
+
+.container {
+  @include container-white;
+
+  display: flex;
+  justify-content: center;
+  width: 700px;
+
+  & .sideContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 20px;
+    width: 202px;
+    border-right: 1px solid rgb(0, 0, 0, 0.07);
+    white-space: pre-wrap;
+
+    & svg {
+      width: 140px;
+      height: 40px;
+    }
+  }
+}

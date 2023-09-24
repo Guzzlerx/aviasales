@@ -1,0 +1,16 @@
+@import "../../styles/constants.scss";
+
+.container {
+  & .stopsText {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+    color: $text-color-light-gray;
+  }
+
+  & img {
+    width: 150px;
+    height: 20px;
+    opacity: 0.5;
+  }
+}

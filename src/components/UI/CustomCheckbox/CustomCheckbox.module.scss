@@ -1,0 +1,64 @@
+@import "../../../styles/constants.scss";
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  padding: 10px 20px;
+
+  p {
+    margin: 0;
+  }
+
+  &:hover {
+    background-color: $container-hover-color;
+
+    .label {
+      border-color: $brand-color-primary;
+    }
+  }
+
+  .checkbox {
+    display: none;
+  }
+
+  .label {
+    width: 17px;
+    height: 17px;
+    border: 1px solid $text-color-light-gray;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    .activeLabel {
+      color: $brand-color-primary;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+
+  .checkbox:checked + .label {
+    border-color: $brand-color-primary;
+  }
+
+  .textContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    font-size: 14px;
+
+    .title {
+      margin-left: 12px;
+      font-weight: 500;
+      color: $title-font-color;
+    }
+
+    span {
+      color: $brand-color-primary;
+      font-weight: bold;
+      font-size: 12px;
+    }
+  }
+}

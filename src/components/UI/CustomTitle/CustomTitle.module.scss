@@ -1,0 +1,10 @@
+@import "../../../styles/constants.scss";
+
+.title {
+  color: $title-font-color;
+  font-weight: bold;
+  font-size: 13px;
+
+  &.marginBot {
+  }
+}

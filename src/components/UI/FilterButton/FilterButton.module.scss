@@ -1,0 +1,26 @@
+@import "../../../styles/constants.scss";
+
+.button {
+  background: none;
+  border: 1px solid $text-color-light-gray;
+  padding: 13px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $brand-color-primary;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $container-hover-color;
+  }
+
+  &.active {
+    color: white;
+    background-color: rgb(9, 144, 227);
+  }
+
+  &:hover,
+  &.active {
+    border-color: $brand-color-primary;
+  }
+}
