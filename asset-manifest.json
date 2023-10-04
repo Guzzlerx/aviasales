@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/aviasales/static/css/main.28f349f9.css",
-    "main.js": "/aviasales/static/js/main.609abaf7.js",
+    "main.js": "/aviasales/static/js/main.13cfb62c.js",
+    "static/media/axios.cjs": "/aviasales/static/media/axios.2c026a5114036a3e687e.cjs",
     "static/media/aeroflot_logo.svg": "/aviasales/static/media/aeroflot_logo.5cbe9cc3d4f1db4be92692aa3f1710d1.svg",
     "static/media/british_airways_logo.svg": "/aviasales/static/media/british_airways_logo.767e65d4c203686241e211ae94c99c4b.svg",
     "static/media/aviasales-logo.svg": "/aviasales/static/media/aviasales-logo.1246d37bfc4a319ade43234269f6b741.svg",
@@ -10,10 +11,10 @@
     "static/media/s7_logo.svg": "/aviasales/static/media/s7_logo.88417df3854202ccb24bb51b98cafe5e.svg",
     "index.html": "/aviasales/index.html",
     "main.28f349f9.css.map": "/aviasales/static/css/main.28f349f9.css.map",
-    "main.609abaf7.js.map": "/aviasales/static/js/main.609abaf7.js.map"
+    "main.13cfb62c.js.map": "/aviasales/static/js/main.13cfb62c.js.map"
   },
   "entrypoints": [
     "static/css/main.28f349f9.css",
-    "static/js/main.609abaf7.js"
+    "static/js/main.13cfb62c.js"
   ]
 }
