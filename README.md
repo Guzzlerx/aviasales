@@ -1,9 +1,11 @@
 # Aviasales
 Test task for a middle frontend developer at "Idea Platform" company.
 
+<b>Github Pages</b> - https://guzzlerx.github.io/aviasales/
+
 ## Stack: :wrench:
 
-_React, TypeScript, SCSS, HTML, Git._
+_React, TypeScript, SCSS, Axios, HTML, Git._
 
 <code>npm init && npm run start</code> - to run the project.<br/>
 
