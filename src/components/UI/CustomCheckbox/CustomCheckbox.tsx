@@ -1,7 +1,7 @@
-import { FC, MouseEvent } from 'react';
-import { ICustomCheckboxProps } from './type';
-import styles from './CustomCheckbox.module.scss';
-import { formatStops } from '../../../utils/formatStops';
+import { FC, MouseEvent } from "react";
+import { ICustomCheckboxProps } from "./type";
+import styles from "./CustomCheckbox.module.scss";
+import { formatStops } from "../../../utils/formatStops";
 
 const CustomCheckbox: FC<ICustomCheckboxProps> = ({
   onSelectHandler,
@@ -9,7 +9,7 @@ const CustomCheckbox: FC<ICustomCheckboxProps> = ({
   value,
   isSelected,
 }) => {
-  const isOnlyButtonShown = isSelected && value !== 'all';
+  const isOnlyButtonShown = isSelected && value !== "all";
 
   const onOnlyClickHandler = (e: MouseEvent<HTMLParagraphElement>) => {
     e.stopPropagation();
@@ -18,8 +18,8 @@ const CustomCheckbox: FC<ICustomCheckboxProps> = ({
 
   let stopsText = formatStops(value);
 
-  if (value === 'all') {
-    stopsText = 'Все';
+  if (value === "all") {
+    stopsText = "Все";
   } else if (value == 0) {
     stopsText = stopsText[0].toUpperCase() + stopsText.slice(1);
   }
